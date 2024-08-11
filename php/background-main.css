@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24255A;
+}
+
+li,
+a,
+button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+header .logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav__links li a {
+    transition: all 0.5s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(83, 44, 157, 0.1);
+}
+
+.icon-bar {
+    text-align: right;
+}
+
+.icon-bar i {
+    margin-right: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+.icon-bar i:hover {
+    color: #64c5f6;
+}
+
+
+.icon-bar i:nth-child(2):hover {
+    color: hsl(34, 73%, 19%);
+}
+
+.icon-bar i:nth-child(3):hover {
+    color: #0f223e;
+}
+
+.icon-bar i:nth-child(4):hover {
+    color: #ffffff;
+}
+
+.icon-bar i:nth-child(5):hover {
+    color: color-mix(in srgb, green 50%, lightblue 50%);
+}
+
+.contaner {
+    position: relative;
+    margin: 7% auto;
+    color: #fff;
+    width: 600px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.811);
+    background-color: #24255A;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
+    padding: 100px 130px 120px 10%;
+    border-radius: 12px;
+    backdrop-filter: blur(9px);
+
+}
+
+/* Use it for background color but it will effect the h1 background */
+/*background: rgba(255, 255, 255, 0.04);*/
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 25px;
+}
+
+label {
+    background: transparent;
+}
+
+/* Use it for background color but it will effect the form-input background */
+/*background: rgba(255, 255, 255, 0.04);*/
+
+.form-input {
+    position: relative;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    border: 2px solid rgba(255, 255, 255, 0.284);
+    outline: none;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+    padding: 10px 40px 10px 10px;
+    width: calc(100% - 40px);
+}
+
+input::placeholder {
+    color: #b0b0b0;
+}
+
+.form-input i {
+    color: #6ee793;
+    position: relative;
+    top: 3px;
+    right: 30px;
+    transform: translate(50%);
+    pointer-events: none;
+    background: transparent;
+}
+
+.login-btn {
+    width: 85%;
+    height: 45%;
+    background-color: #9ca8c1;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
